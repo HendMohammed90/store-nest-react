@@ -63,7 +63,7 @@ export default function FeaturedCategories() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="swiper-button-prev !absolute !left-[76.75rem] w-4 h-4 lg:w-8 lg:h-8 md:w-6 md:h-6 sm:w-5 sm:h-5 mr-2 p-2 !top-[8%] z-100 bg-[#e0ebf6] transition-all duration-300 ease-in-out hover:bg-[#3ab57c] !cursor-pointer !flex !pointer-events-auto !opacity-100"></div>
+        <div className="swiper-button-prev !absolute !left-auto !right-10 w-4 h-4 lg:w-8 lg:h-8 md:w-6 md:h-6 sm:w-5 sm:h-5 mr-2 p-2 !top-[8%] z-100 bg-[#e0ebf6] transition-all duration-300 ease-in-out hover:bg-[#3ab57c] !cursor-pointer !flex !pointer-events-auto !opacity-100"></div>
         <div className="swiper-button-next !absolute w-4 h-4 lg:w-8 lg:h-8 md:w-6 md:h-6 sm:w-5 sm:h-5 p-2 !top-[8%] z-100 bg-[#e0ebf6] transition-all duration-300 ease-in-out hover:bg-[#3ab57c] !cursor-pointer !flex !pointer-events-auto !opacity-100"></div>
       </div>
 

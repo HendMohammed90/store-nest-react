@@ -1,5 +1,5 @@
 import { getFeaturedCategoryData } from "apps/front-office/home/services/home-service";
-import { SliderData } from "apps/front-office/utils/types";
+import { type SliderData } from "apps/front-office/utils/types";
 import { useEffect, useState } from "react";
 
 export function useFeaturedCategories() {
@@ -213,7 +213,6 @@ export function useFeaturedCategories() {
         completed: true,
       },
     };
-
     const fetchData = async () => {
       setIsLoading(true);
       setError(null);
